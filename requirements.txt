@@ -1,5 +1,12 @@
-streamlit
-transformers
-torch
-sentencepiece
-pyngrok
+# Core Web Framework
+streamlit==1.66.1
+
+# Deep Learning Framework & Transformers
+# Note: transformers is pinned to 4.57.1 because Transformers 5.x removed the summarization pipeline
+transformers==4.57.1
+torch==2.15.0
+sentencepiece==0.2.2
+numpy==2.5.4
+
+# Tunneling & Development Utilities (Optional)
+pyngrok==9.1.1
